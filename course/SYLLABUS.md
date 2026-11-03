@@ -2,8 +2,10 @@
 
 Each lesson is one small concept you build yourself. Lessons go in order; each one uses the ones before it.
 
+**Start here:** [Setup guide](SETUP.md) — install Python and the tools.
+
 ## Part 1 — How a machine learns (one input)
-1. **What is ML?** — Writing rules by hand vs. learning them from data.
+1. [**What is ML?**](../concepts/01-what-is-ml/README.md) — Writing rules by hand vs. learning them from data.
 2. **A model is just a function** — Predicting with a line: y = mx + b.
 3. **Loss** — One number that says "how wrong" the model is.
 4. **Derivatives as direction** — Which way is downhill?
