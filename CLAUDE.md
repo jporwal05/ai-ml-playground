@@ -104,8 +104,9 @@ Everything you teach me must be documented so I can later refine and bundle it i
 
 ## Before Starting
 Ask me (don't assume): my current knowledge level, programming language/tool preferences, and machine setup.
+
 ## Git Workflow
 - `main` holds only completed lessons.
 - Each lesson gets its own branch, created when the lesson starts: `lesson/NN-<concept>` (e.g. `lesson/01-what-is-ml`).
 - Commit only when the lesson is complete: build done, quiz passed, and all documentation updated (lesson README, SYLLABUS, GLOSSARY, ANALOGIES, FAQ, PROGRESS).
-- Then merge the branch into `main` and start the next lesson's branch from `main`.
+- Then merge the branch into `main`, push both `main` and the lesson branch to `origin` (learners check out lesson branches to follow the course), and start the next lesson's branch from `main`.
