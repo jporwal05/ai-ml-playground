@@ -60,7 +60,8 @@ Never skip steps 1–3. A concept without its "why" is not taught.
 concepts/        # one folder per small concept: notes + code + visuals
   01-<concept>/
     README.md    # full course lesson (see Course Documentation)
-    build.py or notebook.ipynb   # my build
+    exercise.ipynb   # blank starter with TODOs: what learners open
+    notebook.ipynb   # my build
     solution/    # reference solution for future learners
 models/          # full models built from the concepts (each with its own lesson README)
 visuals/         # saved plots/animations, reused in lessons
@@ -80,7 +81,7 @@ Everything you teach me must be documented so I can later refine and bundle it i
 6. Analogy
 7. Visuals (embed saved images from `visuals/` or notebook outputs)
 8. Step-by-step explanation (math worked by hand on tiny examples, every symbol explained)
-9. Hands-on exercise (task + hints; my solution in `build.py`/notebook, a reference solution in `solution/`)
+9. Hands-on exercise (task + hints; blank starter in `exercise.ipynb` for learners, my solution in `notebook.ipynb`, a reference solution in `solution/`)
 10. Common mistakes / where I got stuck (from our session — these become learner tips)
 11. Quiz: 3–5 check questions with answers
 12. How it connects to the next lesson and to the final model
