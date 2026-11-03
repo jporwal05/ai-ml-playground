@@ -106,7 +106,7 @@ But now check the 14-inch pizza: 1 × 14 + 1 = 15.00, while the real price is 15
 The model now answers a question it never saw in the data. That is the whole point.
 
 ## Hands-on exercise
-Open [`notebook.ipynb`](notebook.ipynb) and fill in every `TODO`:
+Open [`exercise.ipynb`](exercise.ipynb) and fill in every `TODO`:
 
 1. Plot the 5 pizzas as dots (`plt.scatter`).
 2. Write `predict(size, m, b)` that returns `m * size + b`.
@@ -119,7 +119,9 @@ Open [`notebook.ipynb`](notebook.ipynb) and fill in every `TODO`:
 - `predict(sizes, m, b)` works on the whole NumPy array at once.
 - Line too low everywhere? Raise `b`. Too steep (fine on the left, way off on the right)? Lower `m`.
 
-Reference solution: [`solution/notebook.ipynb`](solution/notebook.ipynb).
+**When you're done, compare:**
+- Reference solution: [`solution/notebook.ipynb`](solution/notebook.ipynb).
+- One learner's build, for comparison: [`notebook.ipynb`](notebook.ipynb).
 
 ## Common mistakes
 - **Calling `plt.show()` between the dots and the line.** `plt.show()` finishes the chart, so the line lands on a new, empty chart. Draw everything first, then call `plt.show()` once.
