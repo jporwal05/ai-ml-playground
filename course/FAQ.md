@@ -25,3 +25,14 @@ The third number is *how many points*, spread evenly from start to end. 0 to 12 
 
 **The battery model predicts −20% at 15 hours. Is the model broken?**
 No. It just follows its formula. A model knows nothing about the real world beyond its function and knobs. Always sanity-check predictions, especially outside the range of your data.
+
+## Lesson 03 — Loss
+
+**Why can't we just add up the misses?**
+Positive and negative misses cancel. A flat line that's $4 too high on one pizza and $4 too low on another sums to 0, which falsely looks "perfect".
+
+**Why square instead of just dropping the minus sign?**
+Both stop the cancelling. Squaring also punishes big misses much more (a miss of 4 costs 16, not 4), so the model focuses on its worst mistakes. It also makes a smooth U-shaped loss curve, which matters for finding "downhill" in the next lessons.
+
+**How do I find "downhill" on the loss curve without seeing the whole curve?**
+Feel the tilt where you stand: if the ground slopes down to the right, increase the knob. That tilt is the slope (derivative), covered in Lesson 04.

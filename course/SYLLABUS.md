@@ -7,7 +7,7 @@ Each lesson is one small concept you build yourself. Lessons go in order; each o
 ## Part 1 — How a machine learns (one input)
 1. [**What is ML?**](../concepts/01-what-is-ml/README.md) — Writing rules by hand vs. learning them from data.
 2. [**A model is just a function**](../concepts/02-model-is-a-function/README.md) — Predicting with a line: y = mx + b.
-3. **Loss** — One number that says "how wrong" the model is.
+3. [**Loss**](../concepts/03-loss/README.md) — One number that says "how wrong" the model is.
 4. **Derivatives as direction** — Which way is downhill?
 5. **Gradient descent** — Walking downhill step by step to reduce loss.
 6. **Build: linear regression from scratch**

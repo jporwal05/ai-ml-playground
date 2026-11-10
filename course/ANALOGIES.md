@@ -11,3 +11,7 @@ Every analogy used in the course, indexed by concept.
 | Model as a function | A taxi fare meter: input (km) changes every ride; knobs (per-km rate, base fare) change only when the meter is re-tuned (training). | [02](../concepts/02-model-is-a-function/README.md) |
 | Using vs training a model | A phone plan: using more GB changes x; only the company changing the plan changes m and b. | [02](../concepts/02-model-is-a-function/README.md) |
 | Weight & bias | Per-km rate (weight/slope) and base fare (bias/intercept). | [02](../concepts/02-model-is-a-function/README.md) |
+| Loss | A golf score: a whole round of mistakes becomes one number, and lower is better. | [03](../concepts/03-loss/README.md) |
+| Squaring the misses (MSE) | A speeding fine that grows fast: 5 over is cheap, 20 over is very expensive. | [03](../concepts/03-loss/README.md) |
+| Squared error | The area of a square drawn on each miss: big gaps make huge squares. | [03](../concepts/03-loss/README.md) |
+| Loss curve | A valley you stand in blindfolded: you find downhill by feeling the tilt under your feet. | [03](../concepts/03-loss/README.md) |
