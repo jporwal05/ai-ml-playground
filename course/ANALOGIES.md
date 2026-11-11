@@ -15,3 +15,6 @@ Every analogy used in the course, indexed by concept.
 | Squaring the misses (MSE) | A speeding fine that grows fast: 5 over is cheap, 20 over is very expensive. | [03](../concepts/03-loss/README.md) |
 | Squared error | The area of a square drawn on each miss: big gaps make huge squares. | [03](../concepts/03-loss/README.md) |
 | Loss curve | A valley you stand in blindfolded: you find downhill by feeling the tilt under your feet. | [03](../concepts/03-loss/README.md) |
+| Derivative / slope | Blindfolded on a hillside: slide your foot a tiny bit and feel whether the ground goes up or down, and by how much. | [04](../concepts/04-derivatives/README.md) |
+| Tangent line | A rigid skateboard resting on a bowl: it touches at one spot, has the bowl's tilt there, and doesn't bend. Tilted down-right = it would roll right. | [04](../concepts/04-derivatives/README.md) |
+| Why tangents stay straight | A taxi meter that kept re-tuning its rate every km would bend; a tangent uses one fixed tilt measured at the spot. | [04](../concepts/04-derivatives/README.md) |

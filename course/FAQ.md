@@ -36,3 +36,17 @@ Both stop the cancelling. Squaring also punishes big misses much more (a miss of
 
 **How do I find "downhill" on the loss curve without seeing the whole curve?**
 Feel the tilt where you stand: if the ground slopes down to the right, increase the knob. That tilt is the slope (derivative), covered in Lesson 04.
+
+## Lesson 04 — Derivatives as direction
+
+**My tangent line bends and follows the curve. What's wrong?**
+You're computing the height and slope at *every point* instead of *once at the spot*. Picture a rigid skateboard resting on the bowl: measure the spot's height and slope once, then walk along the board using rise = slope × run. Board height at any m = spot height + spot slope × (m − spot). At m = 1 (height 4, slope −4), the ends are (0.2, 7.2) and (1.8, 0.8). See the lesson's skateboard section.
+
+**Why isn't the board's height the same as the curve's height away from the spot?**
+The board is straight and the curve bends. At m = 1.8 the board is at 0.8, but the curve is at 1.44. They only match at the spot, which is what "touching" means.
+
+**With h = 0.01, the slope at the bottom had the wrong sign. Why?**
+"Tiny" depends on the curve. On a steep-walled valley, a 0.01 slide already climbs partway up the far wall. Shrink `h` until the answer stops changing.
+
+**Why not just try every knob value, like in Lesson 03?**
+It explodes: 101 values per knob means 101 × 101 = 10,201 tries for two knobs, and an impossible number for millions. The slope gives the direction with two loss calculations per knob.
